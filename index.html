@@ -21,7 +21,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </div>
-          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <ul id="navbarItems"  tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <li><a>Potato</a></li>
             <li><a>Soup</a></li>
             <li><a>Chicken</a></li>
@@ -32,7 +32,7 @@
         <a class="btn btn-ghost text-xl">Prochur Khabo</a>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
+        <ul class="menu menu-horizontal px-1 text-2xl font-semibold" id="navbar-Items" >
           <li><a>Potato</a></li>
           <li><a>Soup</a></li>
           <li><a>Chicken</a></li>
@@ -139,9 +139,18 @@
   <main>
     <!-- Food results parts -->
 
+            <!-- result  -->
+            <section>
+              <div id="result-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              </div>
+  
+          </section>
+    
 
+
+<h2 class="text-3xl text-center font-bold bg-gray-100 p-5 rounded-md w-(2/2.5) mx-auto">Frequently Asked Question</h2>
     <!-- FAQ section Starts -->
-    <section class="mt-20 text-center w-2/3 m-auto">
+    <section class="mt-5 text-center w-2/3 m-auto">
       <div class="collapse collapse-plus bg-base-50 ">
         <input type="radio" name="my-accordion-3" checked="checked" />
         <div class="collapse-title text-xl font-medium">Can I freeze soup? How long does it last?</div>
